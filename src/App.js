@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import Sidebar from "./component/sidebar";
+// import { Navigate } from "react-router-dom";
+// import Layout from "./component/Layout";
+// import Sidebar from "./component/Sidebar";
+import Sidebar from "./component/Sidebar";
+// import Homepage from "./pages/Home";
 
 function App() {
+  // const getEmail=localStorage.getItem("emaildata")
+  // const getPassword=localStorage.getItem("passdata")
+
+  // if(getEmail===''&&getPassword==='') return <Navigate replace to ='/login' />
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Sidebar></Sidebar>
+      // <Homepage/>  
+
+
   );
 }
 
